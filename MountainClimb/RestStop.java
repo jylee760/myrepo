@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  *This class provides implementation for RestStop and all of its methods as well as its inherited method Comparable
- * @author John Lee
+ * 
  */
 public class RestStop implements Comparable<RestStop>{
     private String label;
