@@ -5,7 +5,7 @@ import java.util.NoSuchElementException;
 /* *
 * This class provides implementation for MDeque and all of its methods.
 *
-* @author John Lee
+* 
 */
 public class MDeque<E> implements Iterable<E>
 {
