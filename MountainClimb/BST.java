@@ -6,7 +6,7 @@ import java.util.*;
 /**
  * This class provides implementation of a generic binary search tree as well as all of its methods
  * @param <E> generic parameter that will be in bst form
- * @author John Lee
+ * 
  */
 public class BST<E extends Comparable<E>> implements Iterable<E> {
     protected Node root;
