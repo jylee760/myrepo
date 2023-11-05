@@ -5,7 +5,7 @@ import java.util.Iterator;
 /**
  * This class provides implementation of a binary search tree class of type RestStop
  * @param <RestStop>
- * @author John Lee
+ * 
  */
 public class BSTMountain<RestStop> extends BST {
     Iterator itr;
