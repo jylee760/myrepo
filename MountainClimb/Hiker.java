@@ -4,7 +4,7 @@ import java.util.ArrayList;
 /**
  * This class provides implementation for the hiker that is hiking down BSTMountain
  * Keeps track of supplies
- * @author John Lee
+ * 
  */
 public class Hiker {
     int[] possesions;
