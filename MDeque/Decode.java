@@ -18,8 +18,8 @@ import java.util.Iterator;
  * For example, if the initial sequence is {@code 12, 43, 189, 42, 1, 35} and the instructions are {@code FRB}, the resulting sequence should be
  * {@code [35, 1, 42, 189]}.
  *
- * @author Joanna Klukowska
- * @author John Lee
+ * 
+ * 
  *
  */
 public class Decode
