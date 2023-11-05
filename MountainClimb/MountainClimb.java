@@ -7,7 +7,7 @@ import java.util.ArrayList;
 /**
  *This program reads in a command argument of a binary search tree of type RestStop in the form of a mountain
  *Return every valid path from the mountain in the form of Strings.
- * @author John Lee
+ * 
  */
 public class MountainClimb {
     public static void main(String[] args) {
