@@ -20,7 +20,7 @@ namespace mediaplayer
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            string connect = "Data Source=//localhost:1521/xepdb1;User Id=practice;Password=Ewqh9783";
+            string connect ="Data Source=//localhost:1521/xepdb1;User Id=practice;Password=********";
             string query = "Select MEDIA_NAME from jl_mediainfo";
             OracleConnection connection = new OracleConnection(connect);
             DataSet ds = new DataSet();
