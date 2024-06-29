@@ -1,0 +1,20 @@
+{% extends 'base.html'%}
+{% block container %}
+<main>
+    <h1 class="big">Learn More About Last Resort Hotels</h1>
+    <div class="middle">
+        <p class="small">Choose A Question From The Dropdown</p>
+        <form action="/category" method="post">
+        <select name="question" id="question" class="box">
+            <option value="select" class="option">Select</option>
+            {%for key,value in questions.items()%}
+            <option value={{key}} class="option">{{value}}</option>
+            {%endfor%}
+        </select>
+            <br>
+            <br>
+            <input type="submit" value="Submit" class="submit">
+        </form>
+    </div>
+</main>
+{% endblock %}

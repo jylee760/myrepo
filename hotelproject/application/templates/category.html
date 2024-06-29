@@ -1,0 +1,14 @@
+{% extends 'base.html'%}
+{% block container %}
+<main>
+    <h1 class="big">Learn More About Last Resort Hotels</h1>
+<div class="middle">
+    <div class="resize">
+    {%for key,value in values.items()%}
+        <p class="small">{{key}}:   {{value}}</p>
+    {% endfor %}
+    <button type="button"><a class="button" href="{{url_for('home')}}">Home</a></button>
+    </div>
+</div>
+</main>
+{% endblock %}
