@@ -27,7 +27,7 @@ namespace mediaplayer
 
         private void Form4_Load(object sender, EventArgs e)
         {
-            string connect = "Data Source=//localhost:1521/xepdb1;User Id=practice;Password=Ewqh9783";
+            string connect = "Data Source=//localhost:1521/xepdb1;User Id=practice;Password=********";
             OracleConnection connection = new OracleConnection(connect);
             try
             {
