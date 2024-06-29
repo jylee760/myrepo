@@ -44,7 +44,7 @@ namespace mediaplayer
              }
              string type = "V";
              byte[] fileContents = System.IO.File.ReadAllBytes(openFileDialog1.FileName);
-             string connect = "Data Source=//localhost:1521/xepdb1;User Id=practice;Password=Ewqh9783";
+             string connect = "Data Source=//localhost:1521/xepdb1;User Id=practice;Password=********";
              try
              {
                  OracleConnection connection = new OracleConnection(connect);
